@@ -73,5 +73,10 @@
       sku       = "20_04-lts"
       version   = "latest"
     }
+
+    identity {
+      type = "SystemAssigned"
+    }
+
   }
 

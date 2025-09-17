@@ -41,3 +41,18 @@ variable "domain_name_label" {
   type        = string
   description = "The domain name label for the public IP"
 }
+
+variable "storage_account_name" {
+  type        = string
+  description = "The name of the storage account"
+}
+
+variable "storage_container_name" {
+  type        = string
+  description = "The name of the storage container"
+}
+
+variable "alert_email_address" {
+  type        = string
+  description = "Email address to receive alerts"
+}

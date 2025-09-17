@@ -1,4 +1,5 @@
-# Crée le NSG
+# Configure the Network Security Group (NSG) to allow SSH access only from your public IP
+
 resource "azurerm_network_security_group" "main" {
   name                = "vm-nsg-tp2"
   location            = var.location

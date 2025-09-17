@@ -143,9 +143,9 @@ Apply complete! Resources: 3 added, 0 changed, 0 destroyed.
 After adding a rule on port 22 of my VM, I can connect to it with an `ssh` command:
 
 ``` 
-$ \Terraform> ssh paillat@<ip-publique-de-la-vm>
-The authenticity of host '<ip-publique-de-la-vm>' can't be established.
-Warning: Permanently added '<ip-publique-de-la-vm>' (ED25519) to the list of known hosts.
+$ \Terraform> ssh paillat@<ip-publique>
+The authenticity of host '<ip-publique>' can't be established.
+Warning: Permanently added '<ip-publique>' (ED25519) to the list of known hosts.
 Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.15.0-1089-azure x86_64)
 
  * Documentation:  https://help.ubuntu.com

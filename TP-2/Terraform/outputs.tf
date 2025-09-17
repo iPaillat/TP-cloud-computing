@@ -1,3 +1,5 @@
+# Configure the outputs to display important information after deployment
+
 output "vm_public_ip" {
   description = "L'adresse IP publique de la VM"
   value       = azurerm_public_ip.main.ip_address
